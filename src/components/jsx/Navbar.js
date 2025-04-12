@@ -2,6 +2,7 @@ import React from "react";
 import "../css/navbar_homepage.css";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import logo from "./vibe cart logo.png";
 import { useState } from "react";
 import products from "./Product";
 
@@ -68,7 +69,7 @@ function Navbar() {
         <div className="logo_holder">
           <Link className="logo" to="/">
             <img 
-              src="./images/vibe cart logo.png" 
+              src={logo}
               alt="logo" 
             />
           </Link>

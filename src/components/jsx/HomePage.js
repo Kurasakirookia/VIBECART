@@ -3,6 +3,9 @@ import "../css/navbar_homepage.css";
 import Carousel from "./Carousel";
 import { Link } from "react-router-dom";
 
+
+
+
  // Make sure to import your CSS file
 
 function HomePage() {
