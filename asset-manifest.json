@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/VIBECART/static/css/main.a5e94076.css",
+    "main.js": "/VIBECART/static/js/main.ff51d989.js",
+    "static/js/453.ad6eb26e.chunk.js": "/VIBECART/static/js/453.ad6eb26e.chunk.js",
+    "static/media/shanky1_h&m.png": "/VIBECART/static/media/shanky1_h&m.6bf0fc4777216256e987.png",
+    "static/media/HM Sans Regular.ttf": "/VIBECART/static/media/HM Sans Regular.d77df2c922d3d37834ed.ttf",
+    "static/media/Sus_img1.avif": "/VIBECART/static/media/Sus_img1.6275d41f8a0168f7086a.avif",
+    "static/media/Hanson-Bold.ttf": "/VIBECART/static/media/Hanson-Bold.79d7d85e1fb162a1da6b.ttf",
+    "index.html": "/VIBECART/index.html",
+    "main.a5e94076.css.map": "/VIBECART/static/css/main.a5e94076.css.map",
+    "main.ff51d989.js.map": "/VIBECART/static/js/main.ff51d989.js.map",
+    "453.ad6eb26e.chunk.js.map": "/VIBECART/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5e94076.css",
+    "static/js/main.ff51d989.js"
+  ]
+}
