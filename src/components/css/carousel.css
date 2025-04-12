@@ -1,0 +1,99 @@
+/* body{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-items: center;
+
+} */
+
+.carousel_container{
+    width :800px;
+    height:auto;
+
+}
+.carousel {
+    position: relative;
+    width:100%;
+    
+    overflow: hidden;
+}
+
+/* Slides wrapper */
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Individual slide */
+.slide {
+    flex: 0 0 100%; /* Each slide takes up 100% of the container width */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Navigation buttons */
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.product_card > img{
+    width:125px;
+    height:185px;
+    object-fit: contain;
+    
+
+}
+.color-dot {
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+}
+
+.color-dot.black {
+    background: #000;
+}
+
+.color-dot.gray {
+    background: #888;
+}
+
+.color-dot.white {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.product-colors{
+    display: flex;
+    gap:5px;
+}
+
+.product_cards{
+    display: flex;
+}
